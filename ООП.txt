@@ -1,0 +1,30 @@
+
+from os import system
+system("clear")
+ 
+
+class b:
+    kek=13
+    def __init__ (Self) :
+        pass
+
+class a(b):
+    lol=12
+    def __init__ (Self) :
+        pass
+
+    def pr(Self):
+        print( "lol " + str(Self.lol) )
+        print( "lol " + str(a.lol) )
+
+        print( "kek " + str(Self.kek) )
+        print( "kek " + str(a.kek) )
+
+
+
+
+
+kek=a()
+
+kek.pr()
+ 
